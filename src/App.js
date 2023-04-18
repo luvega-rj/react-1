@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Friend'
+import Location from './components/location'
 
 
 // function App() {
@@ -22,6 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <Greet />
+        <Location />
         <h1>Find A Person </h1>
 <img
 className="App-img" 
